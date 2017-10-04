@@ -34,7 +34,7 @@ def all_supplies_in_holidays(holiday_hash)
           word.capitalize!
         end
         temp.join(" ")
-        puts "  #{temp.to_s}: #{supply.join(", ")}"
+        puts "  #{temp}: #{supply.join(", ")}"
       end
     end
 end
